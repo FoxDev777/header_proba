@@ -1,0 +1,113 @@
+.menuContainer {
+  min-height: 30vh;
+  background-color: rgb(36, 33, 33);
+  color: gold;
+  font-weight: 700;
+  font-size: calc(var(--index) * 1.2);
+  box-shadow: 0 3px 3px darkgrey;
+  transition: 1s;
+}
+.menuOpen {
+  min-height: 100vh;
+  transition: 1s;
+}
+.menuHeaderWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuHeader_logoWrapper,
+.menuHeader_expandMenuWrapper {
+  width: 50%;
+  padding: 1vh 15vw;
+}
+.imgLogo {
+  width: calc(var(--index) * 6);
+  filter: drop-shadow(3px 3px 3px black)
+    drop-shadow(-5px 2px 10px rgb(253, 215, 1));
+    cursor: pointer;
+}
+#hamburger_menu {
+  height: 10vh;
+  width: 50px;
+  position: relative;
+  transition-duration: 1s;
+  cursor: pointer;
+  top: 5vh;
+  left: 9vw;
+  visibility: visible;
+}
+#hamburger_menu span {
+  height: 5px;
+  width: 40px;
+  background-color: gold;
+  border-radius: 20px;
+  position: absolute;
+  top: calc(var(--index) * 2.5);
+  transition-duration: 0.25s;
+  transition-delay: 0.25s;
+}
+#hamburger_menu span:before {
+  left: 0;
+  position: absolute;
+  top: -10px;
+  height: 5px;
+  width: 40px;
+  background-color: gold;
+  content: "";
+  border-radius: 20px;
+  transition-duration: 0.25s;
+  transition: transform 0.25s, top 0.25s 0.25s;
+}
+#hamburger_menu span:after {
+  left: 0;
+  position: absolute;
+  top: 10px;
+  height: 5px;
+  width: 40px;
+  background-color: gold;
+  content: "";
+  border-radius: 20px;
+  transition-duration: 0.25s;
+  transition: transform 0.25s, top 0.25s 0.25s;
+}
+#hamburger_menu.open span {
+  transition-duration: 0.1s;
+  transition-delay: 0.3s;
+  background: transparent;
+}
+#hamburger_menu.open span:before {
+  transition: top 0.25s, transform 0.25s 0.25s;
+  transform: rotateZ(-45deg);
+  top: 0;
+}
+#hamburger_menu.open span:after {
+  transition: top 0.4s, transform 0.25s 0.25s;
+  transform: rotateZ(45deg);
+  top: 0;
+}
+.menuItemsWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 72vh;
+}
+
+.menuItems_items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3vw;
+}
+.menuItems_items li:hover {
+  cursor: pointer;
+  filter: drop-shadow(3px 3px 7px gold)
+    drop-shadow(3px 3px 15px rgb(245, 216, 56))
+    drop-shadow(3px 3px 27px rgb(245, 226, 122));
+}
+.visibility {
+  display: none;
+}
