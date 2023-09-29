@@ -7,17 +7,20 @@ import "slick-carousel/slick/slick-theme.css";
 import "./simpleSlider.css";
 
 export default function SimpleSlider() {
+
   const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 5000,
+    speed: 500,
     autoplaySpeed: 3000,
+    pauseOnHover: true,
   };
 
   return (
+    <>
     <Slider {...settings}>
       {dataSlider.map((elem) => {
         return (
@@ -40,5 +43,6 @@ export default function SimpleSlider() {
         );
       })}
     </Slider>
+    </>
   );
 }
