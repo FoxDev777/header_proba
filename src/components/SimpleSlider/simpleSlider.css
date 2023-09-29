@@ -47,14 +47,29 @@
   display: flex;
   gap: 5vw;
 }
-@media (max-width: 900px) {
+@media screen and (max-width: 1280px) {
   .sliderWrapper,
   .imageSlider {
-    width: calc(var(--index) * 10);
+    width: calc(var(--index) * 14);
+  }
+  .sliderTextAbout,
+  .sliderTextAbout > span {
+    font-size: calc(var(--index) * 0.7);
+    width: calc(var(--index) * 14);
+  }
+}
+@media screen and (max-width: 768px) {
+  .sliderWrapper,
+  .imageSlider {
+    width: calc(var(--index) * 9.3);
   }
   .sliderTextAbout,
   .sliderTextAbout > span {
     font-size: calc(var(--index) * 0.5);
-    width: calc(var(--index) * 10);
+    width: calc(var(--index) * 9.3);
   }
+  .slick-track{
+    gap: 10vw;
+  }
+
 }

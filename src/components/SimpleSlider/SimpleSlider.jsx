@@ -4,10 +4,10 @@ import dataSlider from "../../dataSlider/dataSlider";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./slider.css";
+import "./simpleSlider.css";
 
 export default function SimpleSlider() {
-  var settings = {
+  const settings = {
     dots: true,
     infinite: true,
     slidesToShow: 3,
@@ -26,6 +26,7 @@ export default function SimpleSlider() {
               <h3>{elem.text_1}</h3>
               <img
                 onClick={() => window.open(`${elem.url}`)}
+                width={17}
                 className="imageSlider"
                 src={elem.img}
                 alt="imageSlider"
