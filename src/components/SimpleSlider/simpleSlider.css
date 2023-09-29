@@ -28,7 +28,7 @@
 }
 .imageSlider {
   width: calc(var(--index) * 17);
-  height: calc(var(--index) * 10);
+  /* height: calc(var(--index) * 10); */
   cursor: pointer;
   box-shadow: 1px 1px 17px darkgray;
   border-radius: 12px;
@@ -53,26 +53,33 @@
 @media screen and (max-width: 1280px) {
   .sliderWrapper,
   .imageSlider {
-    width: calc(var(--index) * 14);
+    width: calc(var(--index) * 14.5);
   }
   .sliderTextAbout,
   .sliderTextAbout > span {
     font-size: calc(var(--index) * 0.7);
     width: calc(var(--index) * 14);
   }
+  .sliderWrapper{
+    margin:0 7vw;
+    padding: 0 7vw;
+    }
+    .slick-track{
+      display: flex;
+      gap:5vw;
+    }
 }
 @media screen and (max-width: 768px) {
   .sliderWrapper,
   .imageSlider {
-    width: calc(var(--index) * 9.3);
+    width: calc(var(--index) * 12);
   }
   .sliderTextAbout,
   .sliderTextAbout > span {
     font-size: calc(var(--index) * 0.5);
-    width: calc(var(--index) * 9.3);
+    width: calc(var(--index) * 12);
   }
   .slick-track{
-    gap: 10vw;
+    gap:calc(var(--index)*7)
   }
-
 }
