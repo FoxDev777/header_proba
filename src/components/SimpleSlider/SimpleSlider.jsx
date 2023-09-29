@@ -27,6 +27,7 @@ export default function SimpleSlider() {
               <img
                 onClick={() => window.open(`${elem.url}`)}
                 width={17}
+                height={10}
                 className="imageSlider"
                 src={elem.img}
                 alt="imageSlider"
