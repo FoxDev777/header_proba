@@ -1,0 +1,47 @@
+.sliderAnimatedWrapper{
+   min-height: 80vh;
+   color: antiquewhite;
+   font-weight: 700;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   width: 70vw;
+   text-align: center;
+   margin: 0 auto;
+}
+.aloneSlideWrapper{
+    position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: grey;
+   max-width:calc(var(--index)*18);
+   border-radius: 12px;
+   box-shadow: 3px 3px 7px darkgray;
+padding: 1vw;
+}
+h3{
+    font-size: calc(var(--index) * 1.2);
+}
+.sliderTextAbout {
+    font-style: italic;
+    text-shadow: 3px 3px 3px grey;
+  }
+  .sliderTextAbout span {
+    font-weight: 900;
+    font-size: calc(var(--index));
+    font-style: normal;
+    text-shadow: none;
+  }
+.sliderAnimatedImage{
+    width:calc(var(--index)*18);
+    border-radius: 12px;
+    cursor: pointer;
+}
+.sliderAnimatedImage:hover {
+    filter: sepia(1.2);
+    transform: scale(1.03);
+  }
+

@@ -7,3 +7,11 @@ body {
 :root {
   --index: calc(1vw + 1vh);
 }
+.divider{
+  color: darkcyan;
+  font-weight: 900;
+  font-size: calc(var(--index)*1.5);
+  margin: 6.7vw auto 0;
+  text-align: center;
+  text-decoration: underline;
+}
