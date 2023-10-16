@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/header_proba/static/css/main.436002fd.css",
-    "main.js": "/header_proba/static/js/main.b43fdbb0.js",
+    "main.css": "/header_proba/static/css/main.fee83175.css",
+    "main.js": "/header_proba/static/js/main.27b87c06.js",
     "static/media/sean-pollock-PhYq704ffdA-unsplash 1.png": "/header_proba/static/media/sean-pollock-PhYq704ffdA-unsplash 1.e86b8bd27bad4cda377b.png",
     "static/media/slider2.jpg": "/header_proba/static/media/slider2.cea04e91bd8c2bb0cfe4.jpg",
     "static/media/slider3.jpg": "/header_proba/static/media/slider3.6cfc02c166fd12d131f3.jpg",
     "static/media/slider1.jpg": "/header_proba/static/media/slider1.b2214c717c77c8dce369.jpg",
     "static/media/sky_bg1.jpg": "/header_proba/static/media/sky_bg1.33c88d6bebfad06d03cb.jpg",
     "index.html": "/header_proba/index.html",
-    "main.436002fd.css.map": "/header_proba/static/css/main.436002fd.css.map",
-    "main.b43fdbb0.js.map": "/header_proba/static/js/main.b43fdbb0.js.map"
+    "main.fee83175.css.map": "/header_proba/static/css/main.fee83175.css.map",
+    "main.27b87c06.js.map": "/header_proba/static/js/main.27b87c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.436002fd.css",
-    "static/js/main.b43fdbb0.js"
+    "static/css/main.fee83175.css",
+    "static/js/main.27b87c06.js"
   ]
 }
