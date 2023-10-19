@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/header_proba/static/css/main.bd06b991.css",
-    "main.js": "/header_proba/static/js/main.27b87c06.js",
+    "main.css": "/header_proba/static/css/main.6c0bebbd.css",
+    "main.js": "/header_proba/static/js/main.77f9afea.js",
     "static/media/sean-pollock-PhYq704ffdA-unsplash 1.png": "/header_proba/static/media/sean-pollock-PhYq704ffdA-unsplash 1.e86b8bd27bad4cda377b.png",
+    "static/media/slider7.jpg": "/header_proba/static/media/slider7.fd9403b80c7e16a0aadc.jpg",
     "static/media/slider2.jpg": "/header_proba/static/media/slider2.cea04e91bd8c2bb0cfe4.jpg",
     "static/media/slider3.jpg": "/header_proba/static/media/slider3.6cfc02c166fd12d131f3.jpg",
     "static/media/slider1.jpg": "/header_proba/static/media/slider1.b2214c717c77c8dce369.jpg",
+    "static/media/slider5.jpg": "/header_proba/static/media/slider5.71813f78b9ff4f6a31ba.jpg",
+    "static/media/slider4.jpg": "/header_proba/static/media/slider4.163740a2d2584ddca382.jpg",
     "static/media/sky_bg1.jpg": "/header_proba/static/media/sky_bg1.33c88d6bebfad06d03cb.jpg",
     "index.html": "/header_proba/index.html",
-    "main.bd06b991.css.map": "/header_proba/static/css/main.bd06b991.css.map",
-    "main.27b87c06.js.map": "/header_proba/static/js/main.27b87c06.js.map"
+    "main.6c0bebbd.css.map": "/header_proba/static/css/main.6c0bebbd.css.map",
+    "main.77f9afea.js.map": "/header_proba/static/js/main.77f9afea.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd06b991.css",
-    "static/js/main.27b87c06.js"
+    "static/css/main.6c0bebbd.css",
+    "static/js/main.77f9afea.js"
   ]
 }
