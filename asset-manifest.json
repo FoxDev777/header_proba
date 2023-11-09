@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/header_proba/static/css/main.6c0bebbd.css",
-    "main.js": "/header_proba/static/js/main.77f9afea.js",
-    "static/media/sean-pollock-PhYq704ffdA-unsplash 1.png": "/header_proba/static/media/sean-pollock-PhYq704ffdA-unsplash 1.e86b8bd27bad4cda377b.png",
-    "static/media/slider7.jpg": "/header_proba/static/media/slider7.fd9403b80c7e16a0aadc.jpg",
-    "static/media/slider2.jpg": "/header_proba/static/media/slider2.cea04e91bd8c2bb0cfe4.jpg",
-    "static/media/slider3.jpg": "/header_proba/static/media/slider3.6cfc02c166fd12d131f3.jpg",
-    "static/media/slider1.jpg": "/header_proba/static/media/slider1.b2214c717c77c8dce369.jpg",
-    "static/media/slider5.jpg": "/header_proba/static/media/slider5.71813f78b9ff4f6a31ba.jpg",
-    "static/media/slider4.jpg": "/header_proba/static/media/slider4.163740a2d2584ddca382.jpg",
-    "static/media/sky_bg1.jpg": "/header_proba/static/media/sky_bg1.33c88d6bebfad06d03cb.jpg",
+    "main.css": "/header_proba/static/css/main.0951c380.css",
+    "main.js": "/header_proba/static/js/main.680735dd.js",
+    "static/media/evodrive 2.png": "/header_proba/static/media/evodrive 2.e59002a7a77620c28003.png",
+    "static/media/profinstr-1 2.png": "/header_proba/static/media/profinstr-1 2.5bbffb12bb9835ac5e41.png",
+    "static/media/vigrand 2.png": "/header_proba/static/media/vigrand 2.0005fe147354b10ddbb6.png",
+    "static/media/slick.svg": "/header_proba/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/header_proba/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/header_proba/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/header_proba/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/header_proba/index.html",
-    "main.6c0bebbd.css.map": "/header_proba/static/css/main.6c0bebbd.css.map",
-    "main.77f9afea.js.map": "/header_proba/static/js/main.77f9afea.js.map"
+    "main.0951c380.css.map": "/header_proba/static/css/main.0951c380.css.map",
+    "main.680735dd.js.map": "/header_proba/static/js/main.680735dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c0bebbd.css",
-    "static/js/main.77f9afea.js"
+    "static/css/main.0951c380.css",
+    "static/js/main.680735dd.js"
   ]
 }
